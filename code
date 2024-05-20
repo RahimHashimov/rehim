@@ -1,1 +1,2 @@
 sudo dnf install kernel-devel-$(uname -r) kernel-headers-$(uname -r)
+sudo dnf install -y gcc make perl elfutils-libelf-devel bzip2 dkms
